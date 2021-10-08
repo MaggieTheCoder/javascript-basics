@@ -19,7 +19,7 @@ function power (a, b) {
 }
 
 function round (a) {
-  // your code here
+  return Math.round(a);// your code here
 }
 
 function roundUp (a) {
