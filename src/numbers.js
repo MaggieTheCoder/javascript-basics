@@ -34,8 +34,8 @@ function absolute (a) {
   return Math.abs(a);// your code here
 }
 
-function quotient (a, b) {
-  // your code here
+function quotient(a, b) {
+  return Math.trunc(a/b);// your code here
 }
 
 function remainder (a, b) {
