@@ -23,7 +23,7 @@ function round (a) {
 }
 
 function roundUp (a) {
-  return Math.roundUp(a);// your code here
+  return Math.ceil(a);// your code here
 }
 
 function roundDown (a) {
