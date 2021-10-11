@@ -1,13 +1,13 @@
 function sayHello(string) {
-  return 'Hello, world!';
+return ('Hello,'+ ' '+ string + '!');
 };
 
 function uppercase(string) {
-  // your code here
+  return (string.toUpperCase());
 };
 
-function lowercase (string) {
-  // your code here
+function lowercase(string) {
+  return string.toLowerCase(); // your code here
 };
 
 function countCharacters(string) {
