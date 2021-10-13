@@ -37,11 +37,21 @@ function one(a, b) {
 };
 
 function truthiness(a) {
-  // your code here
+  if (a) {
+    return true;
+  }
+  else {
+    return false;
+  
+  }
 };
 
 function isEqual(a, b) {
-  // your code here
+  if (a === b) {
+    return true;
+  } else {
+    return false;
+  }// your code here
 };
 
 function isGreaterThan(a, b) {
