@@ -55,11 +55,19 @@ function isEqual(a, b) {
 };
 
 function isGreaterThan(a, b) {
-  // your code here
+  if (a > b) {
+    return true;
+  } else {
+    return false;
+  }// your code here
 };
 
 function isLessThanOrEqualTo(a, b) {
-  // your code here
+  if (a <= b) {
+    return true;
+  } else { 
+    return false;
+  }// your code here
 };
 
 function isOdd(a) {
