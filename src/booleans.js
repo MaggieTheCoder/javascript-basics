@@ -10,19 +10,30 @@ function both(a, b) {
   } 
  else {
   return false;
- }    
+  }
 };
 
 function either(a, b) {
-  // your code here
-};
+  if (a === true || b === true) {
+    return true;// your code here
+  } else {
+    return false;
+  }
+  };
 
 function none(a, b) {
-  // your code here
+  if (a ===! true && b ===! true) {
+  return true;
+  } else { return false;
+  }// your code here
 };
 
 function one(a, b) {
-  // your code here
+  if (a === true) {
+    return b === false;
+  } else if (a === false) {
+    return b === true;
+  } // your code here
 };
 
 function truthiness(a) {
