@@ -87,11 +87,19 @@ function isEven(a) {
 };
 
 function isSquare(a) {
-  // your code here
-};
+  if (Math.sqrt(a) % 1 === 0) {
+    return true;
+  } else {
+    return false;
+  }
+ };
 
 function startsWith(char, string) {
-  // your code here
+  if (string.startsWith(char)) {
+    return true;
+  } else {
+    return false;
+  }// your code here
 };
 
 function containsVowels(string) {
