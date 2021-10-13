@@ -71,11 +71,19 @@ function isLessThanOrEqualTo(a, b) {
 };
 
 function isOdd(a) {
-  // your code here
+  if (a % 2 === 0) {
+    return false;
+  } else {
+    return true;
+  }// your code here
 };
 
 function isEven(a) {
-  // your code here
+  if (a % 2 === 0) {
+    return true;
+  } else {
+    return false;
+  }// your code here
 };
 
 function isSquare(a) {
