@@ -2,10 +2,15 @@ function negate(a) {
   if (a === true || a === false) {
     return !a;
   }
-};
+}
 
 function both(a, b) {
-  // your code here
+  if (a === true && b === true) {
+    return true;
+  } 
+ else {
+  return false;
+ }    
 };
 
 function either(a, b) {
